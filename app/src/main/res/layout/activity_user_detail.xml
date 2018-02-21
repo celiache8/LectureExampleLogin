@@ -49,4 +49,38 @@
         android:layout_marginTop="16dp"
         android:text="@string/no"
         android:onClick="noChecked"/>
+
+    <Button
+        android:id="@+id/open_map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/welcome_view"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        android:onClick="openMap"
+        android:text="Open Map" />
+
+    <EditText
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/no_check"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Longitude" />
+
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/longitude"
+        android:layout_below="@+id/longitude"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Latitude" />
+
+
 </RelativeLayout>
